@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application de Suivi des Tâches</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Suivi des Tâches</h1>
+    </header>
+
+    <div class="task-input">
+      <input type="text" id="taskTitle" placeholder="Titre de la tâche" />
+      <input type="text" id="taskDescription" placeholder="Description de la tâche" />
+      <button id="addTaskBtn">Ajouter la tâche</button>
+    </div>
+
+    <div id="taskList" class="task-list">
+      <ul>
+        <!-- Les tâches seront ajoutées ici -->
+      </ul>
+    </div>
+  </div>
+  <div id="pagination"></div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
